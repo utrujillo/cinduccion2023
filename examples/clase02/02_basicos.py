@@ -26,3 +26,5 @@ menu = """
 """
 
 print( menu %(profesor) )
+
+#https://github.com/utrujillo/cinduccion2023
