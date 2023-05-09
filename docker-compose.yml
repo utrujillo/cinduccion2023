@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    container_name: cinduccion
+    tty: true
+    stdin_open: true
+    # ports: 
+    # - 80:80
+    # restart: on-failure
+
+    volumes:
+      - type: bind
+        source: ./examples
+        target: /apps/examples
