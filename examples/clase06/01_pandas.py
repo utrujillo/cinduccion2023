@@ -10,7 +10,7 @@ data = {
   'Q2':[7,9,9,8,8,8,9]
 }
 dataframe = pd.DataFrame( data )
-print(dataframe)
+print( dataframe )
 
 # Asignando indices
 dataframe = pd.DataFrame( data, index=['Ana', 'Benito', 'Camilo', 'Daniel', 'Erika', 'Fabian', 'Gabriela'] )

@@ -2,7 +2,7 @@ import pandas as pd
 import os.path
 
 data = {
-    'edad': [10,9,13,14,12,11,12],
+    'edad': [1000,9,13,14,12,11,12],
     'cm': [115,110,130,155,125,120,125],
     'pais':['co','mx','co','mx','mx','ch','ch'],
     'genero':['M','F','F','M','M','M','F'],
